@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="landingpage-cms">
+  <component name="PublishConfigData" serverName="landingpage-cms" uploadOnCheckin="50a97b27-6292-430d-b2bd-52409d758a84">
     <serverData>
       <paths name="landingpage-cms">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="landingpage-cms" />
   </component>
 </project>
