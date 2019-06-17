@@ -1,3 +1,9 @@
+.cms-box-1{
+  background-color: #daf7ff;
+  img{
+    width: 70px;
+  }
+}
 .cms-bg-img1{
 
 }
@@ -12,12 +18,28 @@
     border-radius: 10px;
   }
 }
+.cms-title-honoi{
+  @extend .cms-title;
+  font-size: 28px !important;
+  padding-bottom: 10px;
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    display: inline-block;
+    background-color: #11a4d8;
+  }
+}
 .cms-title{
   color: #11a4d8;
   font-family:'Averta-Bold';
   font-size: 30px;
+  position: relative;
   @media(max-width: 560px){
-    font-size: 22px;
+    font-size: 22px !important;
   }
 }
 .cms-desc{

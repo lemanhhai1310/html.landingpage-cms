@@ -209,7 +209,7 @@
         </p>
     </div>
     <div class="uk-container uk-container-small">
-        <div class="uk-child-width-1-6@m uk-grid-small uk-grid-match" uk-grid>
+        <div class="uk-child-width-1-3 uk-child-width-1-6@m uk-grid-small uk-grid-match" uk-grid>
             <?php
             $data = array(
                 array(
@@ -253,10 +253,26 @@
 </div>
 <div class="cms-bg-gray">
     <div class="uk-container uk-container-small">
-        <div class="uk-grid-collapse" uk-grid>
-            <div class="uk-width-2-5@m"></div>
+        <div class="uk-grid-collapse uk-grid-match" uk-grid>
+            <div class="uk-width-2-5@m">
+                <div class="uk-padding-small cms-box-1">
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-auto">
+                            <img src="imgs/speech-bubble.png" alt="">
+                        </div>
+                        <div class="uk-width-expand">
+                            <h2 class="cms-title-honoi">Họ nói <br> về chúng tôi</h2>
+                            <p>Những chia sẻ chân tình
+                                mà CMS nhận được từ những
+                                đối tác và khác hàng</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="uk-width-3-5@m">
-                <div class="uk-padding"></div>
+                <div class="uk-padding-small">
+
+                </div>
             </div>
         </div>
     </div>
