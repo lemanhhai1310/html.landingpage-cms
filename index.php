@@ -268,8 +268,44 @@
                 </div>
             </div>
             <div class="uk-width-3-5@m">
-                <div class="uk-padding-small">
-
+                <div class="uk-padding-small uk-flex uk-flex-middle">
+                    <div class="owl-carousel owl-theme">
+                        <?php for ($i=0;$i<=4;$i++){ ?>
+                            <div class="item">
+                                <div class="uk-grid-small" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-1/p160x160/59334861_2240981196119388_7182969375312314368_n.jpg?_nc_cat=111&_nc_oc=AQncd5_9ozt8K50ZMkWZs9HeMgzYnzwmws5iF_BJEO81fP973xS3EvX_miJyh6Bpcnc&_nc_ht=scontent.fhan3-1.fna&oh=266e5aa1f8da02cde56008cfeee439b0&oe=5D974274" alt="" uk-cover>
+                                            <canvas width="50" height="50"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <p>Những giải pháp của Click Media & Seo thật sự đã mang lại cho chúng tôi những tiện ích vô cùng to lớn và sự tận tâm của đội ngũ nhân viên CMS tạo cảm giác gần gũi và mang đúng triết lý của chúng tôi vào từng sản phẩm</p>
+                                        <div>“ Anh <b>Trần Hoàng Tiến</b> - CEO Vinamilk Việt Nam</div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php } ?>
+                    </div>
+                    <script>
+                        $('.owl-carousel').owlCarousel({
+                            loop:true,
+                            margin:10,
+                            nav:false,
+                            dots:true,
+                            responsive:{
+                                0:{
+                                    items:1
+                                },
+                                600:{
+                                    items:1
+                                },
+                                1000:{
+                                    items:1
+                                }
+                            }
+                        })
+                    </script>
                 </div>
             </div>
         </div>
