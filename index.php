@@ -74,7 +74,7 @@
             và làm việc với sự tâm huyết cao
         </p>
     </div>
-    <div class="uk-container-expand">
+    <div class="uk-container-large uk-margin-auto">
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
 
             <ul class="uk-slider-items uk-grid-medium uk-grid">
@@ -100,11 +100,11 @@
                     ),
                 );
                 foreach ($data as $k1 => $v1){ ?>
-                    <li class="uk-width-4-5">
-                        <div class="uk-card cms-nhansu-card uk-card-default">
+                    <li class="uk-width-2-3">
+                        <div class="uk-card cms-nhansu-card uk-card-hover uk-card-default">
                             <div class="uk-grid-divider" uk-grid>
                                 <div class="uk-width-auto@s">
-                                    <div class="uk-flex-middle" uk-grid>
+                                    <div class="uk-flex-middle uk-grid-small" uk-grid>
                                         <div class="uk-width-auto">
                                             <img class="cms-avatar" src="<?= $v1['img'] ?>" alt="">
                                         </div>
@@ -201,15 +201,64 @@
     </div>
 </div>
 <div class="uk-section-small">
-    <div class="uk-container uk-container-small">
+    <div class="uk-container uk-container-small uk-margin-medium">
         <h2 class="cms-title uk-text-center">Đối tác của chúng tôi</h2>
         <p class="cms-desc uk-text-center">
             Đã có nhiều công ty và doanh nghiệp tin tưởng chúng tôi và chọn CMS <br>
             để cộng tác trong các dự án truyền thông lớn - nhỏ của họ.
         </p>
     </div>
-    <div class="uk-container">
+    <div class="uk-container uk-container-small">
+        <div class="uk-child-width-1-6@m uk-grid-small uk-grid-match" uk-grid>
+            <?php
+            $data = array(
+                array(
+                    'img' => 'imgs/KH/coca-cola.png',
+                ),
+                array(
+                    'img' => 'imgs/KH/chin-su.png',
+                ),
+                array(
+                    'img' => 'imgs/KH/mat-bao.png',
+                ),
 
+                array(
+                    'img' => 'imgs/KH/zing-vn.png',
+                ),
+                array(
+                    'img' => 'imgs/KH/haravan.png',
+                ),
+
+                array(
+                    'img' => 'imgs/KH/nhaccuatui.png',
+                ),
+                array(
+                    'img' => 'imgs/KH/bitis.png',
+                ),
+                array(
+                    'img' => 'imgs/KH/vinamilk.png',
+                ),
+            );
+            foreach ($data as $k1 => $v1){ ?>
+                <div>
+                    <div class="uk-card cms-card2 uk-card-hover">
+                        <div class="cms-bg-img1">
+                            <img src="<?= $v1['img'] ?>" alt="">
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+</div>
+<div class="cms-bg-gray">
+    <div class="uk-container uk-container-small">
+        <div class="uk-grid-collapse" uk-grid>
+            <div class="uk-width-2-5@m"></div>
+            <div class="uk-width-3-5@m">
+                <div class="uk-padding"></div>
+            </div>
+        </div>
     </div>
 </div>
 <?php include "footer.php"; ?>

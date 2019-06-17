@@ -1,7 +1,21 @@
+.cms-bg-img1{
+
+}
+.cms-card2{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  &:hover{
+    border-color: #76dbff;
+    border-radius: 10px;
+  }
+}
 .cms-title{
   color: #11a4d8;
   font-family:'Averta-Bold';
-  font-size: 28px;
+  font-size: 30px;
   @media(max-width: 560px){
     font-size: 22px;
   }
@@ -51,6 +65,7 @@
   -webkit-filter: grayscale(100%);
   .uk-active &{
     -webkit-filter: grayscale(0%);
+    box-shadow: 0 14px 25px rgba(0,0,0,.16);
   }
   .uk-grid-divider{
     &.uk-grid-stack{
@@ -85,6 +100,9 @@
   color: #404040 !important;
   margin: 0;
   font-size: 16px;
+  @media (max-width: 560px) {
+    font-size: 15px;
+  }
 }
 .cms-nav-dot{
   li{
