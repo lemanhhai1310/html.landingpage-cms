@@ -1,5 +1,8 @@
 .cms-box-1{
   background-color: #daf7ff;
+  @media (max-width: 560px) {
+    margin: 0 -15px 0 -15px;
+  }
   img{
     width: 70px;
   }
@@ -20,7 +23,7 @@
 }
 .cms-title-honoi{
   @extend .cms-title;
-  font-size: 28px !important;
+  font-size: 26px !important;
   padding-bottom: 10px;
   &:after{
     content: '';

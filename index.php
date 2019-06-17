@@ -262,9 +262,7 @@
                         </div>
                         <div class="uk-width-expand">
                             <h2 class="cms-title-honoi">Họ nói <br> về chúng tôi</h2>
-                            <p>Những chia sẻ chân tình
-                                mà CMS nhận được từ những
-                                đối tác và khác hàng</p>
+                            <p>Những chia sẻ chân tình mà CMS nhận được từ những đối tác và khác hàng</p>
                         </div>
                     </div>
                 </div>
